@@ -23,3 +23,9 @@ delete wilders.name;
 
 for (let key in wilders)
     console.log(key, wilders[key]);
+
+wilders["firstName"]="Anaïs";
+wilders["lastName"]="Réau";
+
+for (let key in wilders)
+    console.log(key, wilders[key]);
